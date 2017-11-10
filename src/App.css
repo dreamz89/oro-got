@@ -1,10 +1,14 @@
 /*font-family: 'Roboto', sans-serif;*/
+.container {
+  margin: 0 10%
+}
+
 .atf {
   /* The image used */
   background-image: url("./images/Cover3.jpg");
 
   /* Full height */
-  height: 100%;
+  height: 100vh;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -15,14 +19,36 @@
 
 .atf img {
   display:block;
-  margin:auto;
+  margin:0 auto;
+  padding-top: 20vh
 }
 
 .atf h2 {
   margin: auto;
-  width: 50%
+  width: 60%;
+  font-family: 'Roboto', sans-serif;
 }
 
 .atf .center {
   margin: 1% 43%
+}
+
+.locations .tile{
+  /*height: 20vh;
+  width: 25vw;*/
+  /*margin: 0 10%;*/
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin: 5% 0
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.req img{
+  width: 20%
 }
