@@ -19,7 +19,7 @@
 
 .atf img {
   display:block;
-  margin:0 auto;
+  margin:auto;
   padding-top: 20vh
 }
 
@@ -30,13 +30,7 @@
 }
 
 .atf .center {
-  margin: 1% 43%
-}
-
-.locations .tile{
-  /*height: 20vh;
-  width: 25vw;*/
-  /*margin: 0 10%;*/
+  margin: 5% 43%
 }
 
 h1 {
@@ -48,7 +42,20 @@ h1 {
 p {
   font-family: 'Roboto', sans-serif;
 }
+.req {
+  display: inline-block;
+  margin: 1.5%;
+  width:30%
+}
+.req img {
+  display:block;
+  margin:auto;
+  width: 70%
+}
+.req h2 {
+  text-align: center;
+}
 
-.req img{
-  width: 20%
+.req {
+  font-size: 18px;
 }
