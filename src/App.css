@@ -1,6 +1,9 @@
-/*font-family: 'Roboto', sans-serif;*/
 .container {
   margin: 0 10%
+}
+
+h1, h2, p {
+  font-family: 'Roboto', sans-serif;
 }
 
 .atf {
@@ -26,7 +29,6 @@
 .atf h2 {
   margin: auto;
   width: 60%;
-  font-family: 'Roboto', sans-serif;
 }
 
 .atf .center {
@@ -34,28 +36,24 @@
 }
 
 h1 {
-  font-family: 'Roboto', sans-serif;
   text-align: center;
   margin: 5% 0
 }
 
-p {
-  font-family: 'Roboto', sans-serif;
-}
-.req {
+.col {
   display: inline-block;
   margin: 1.5%;
   width:30%
 }
-.req img {
+.col img {
   display:block;
   margin:auto;
-  width: 70%
+  width: 60%
 }
-.req h2 {
+.col h3 {
   text-align: center;
 }
 
-.req {
+.col {
   font-size: 18px;
 }

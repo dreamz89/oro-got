@@ -8,19 +8,19 @@ export default class Requirements extends Component {
     return (
       <div className='container'>
         <h1>Requirements</h1>
-        <div className='req'>
+        <div className='col'>
           <img src={Hair} alt='Long hair man' />
-          <h2>Long Hair</h2>
+          <h3>Long Hair</h3>
           <p>For men, the longer hair the better, for a medieval look.</p>
         </div>
-        <div className='req'>
+        <div className='col'>
           <img src={Discretion} alt='discretion' />
-          <h2>Discretion</h2>
+          <h3>Discretion</h3>
           <p>Do not approach actors, unless they approach you first. Do not write on social media or tell friends and family about the filming.</p>
         </div>
-        <div className='req'>
+        <div className='col'>
           <img src={Skills} alt='skills' />
-          <h2>Skills</h2>
+          <h3>Skills</h3>
           <p>Medieval skills like horse riding/ archery / wood chopping / sword fighting are good to have</p>
         </div>
       </div>
