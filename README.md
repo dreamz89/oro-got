@@ -16,3 +16,5 @@ III.	User login using the login_id he registered with and the random password is
 * ![Create React App](https://github.com/facebookincubator/create-react-app)
 * ![Material-UI](http://www.material-ui.com)
 * ![Firebase](https://firebase.google.com/)
+
+<div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>

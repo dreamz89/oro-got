@@ -1,21 +1,32 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import './App.css'
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
+import { BrowserRouter as Router,
+  Route, Switch } from 'react-router-dom'
+import Nav from './navbar.js'
+import Home from './homepage/Home'
+import Login from './auth/Login'
+import Register from './auth/Register'
 
 class App extends Component {
-  render() {
+  render () {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div>
+        <MuiThemeProvider>
+          <Router>
+            <div>
+              <Nav />
+              <Switch>
+                <Route exact path='/' component={Home} />
+                <Route path='/login' component={Login} />
+                <Route path='/register' component={Register} />
+              </Switch>
+            </div>
+          </Router>
+        </MuiThemeProvider>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
