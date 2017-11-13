@@ -36,7 +36,7 @@ export default class Locations extends Component {
           key={tile.img}
           className='tile'
           title={tile.title}
-          titleStyle={{color: 'white', fontSize: '18px'}}
+          titleStyle={{color: 'white', fontSize: '16px'}}
           titleBackground='linear-gradient(to top, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.3) 70%,rgba(0,0,0,0) 100%)' >
           <img src={tile.img} />
         </GridTile>
