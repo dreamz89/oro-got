@@ -7,6 +7,7 @@ export default class Register extends Component {
     return (
       <div>
         <div className='container'>
+          <h2>Register</h2>
           <TextField hintText='At least 5 characters'
             floatingLabelText='Username' /><br />
           <RaisedButton label='Submit' primary={true} className='center' />
