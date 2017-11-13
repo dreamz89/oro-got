@@ -7,6 +7,7 @@ import Nav from './navbar.js'
 import Home from './homepage/Home'
 import Login from './auth/Login'
 import Register from './auth/Register'
+import Profile from './Profile'
 
 class App extends Component {
   render () {
@@ -20,6 +21,7 @@ class App extends Component {
                 <Route exact path='/' component={Home} />
                 <Route path='/login' component={Login} />
                 <Route path='/register' component={Register} />
+                <Route path='/profile' component={Profile} />
               </Switch>
             </div>
           </Router>

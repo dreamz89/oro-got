@@ -18,8 +18,8 @@ export default class Register extends Component {
   handleSubmit (e) {
     e.preventDefault()
     this.setState({password: randPassword})
-    firebaseAuth().createUserWithEmailAndPassword(this.state.email, this.state.password)
-      .catch(e => this.setState({errorMessage: e.message, password: 'provided upon registration'})
+    firebaseAuth().createUserWithEmailAndPassword(this.state.email, randPassword)
+      .catch(e => this.setState({errorMessage: e.message})
     )
   }
   render () {
