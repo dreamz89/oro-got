@@ -14,6 +14,7 @@ export default class Login extends Component {
     this.handleSubmit = this.handleSubmit.bind(this)
   }
   handleSubmit (e) {
+    e.preventDefault()
     firebaseAuth().signInWithEmailAndPassword(this.state.em, this.state.pw)
       .catch(e => this.setState({errorMessage: e.message})
     )

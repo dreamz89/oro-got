@@ -3,10 +3,7 @@ import TextField from 'material-ui/TextField'
 import RaisedButton from 'material-ui/RaisedButton'
 import { firebaseAuth } from './fire'
 
-var randPassword = Array(8).fill('0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz')
-                            .map(function (x) {
-                              return x[Math.floor(Math.random() * x.length)]
-                            }).join('')
+var randPassword = Array(8).fill('0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz').map(function (x) { return x[Math.floor(Math.random() * x.length)] }).join('')
 
 export default class Register extends Component {
   constructor () {
