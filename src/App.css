@@ -28,7 +28,8 @@ h1, h2, p {
 .cta {
   position: absolute;
   top: 0;
-  left: 0
+  left: 0;
+  width: 100%;
 }
 
 .cta img {
@@ -75,4 +76,59 @@ p {
 .rev img{
   width: 15%;
   float: left
+}
+
+/*mobile breakpoint*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #cover {
+    background-attachment: scroll;
+    height: 50vh;
+  }
+  .container {
+    margin: 0 2%
+  }
+  .cta {
+    width:100%;
+  }
+  .cta img {
+    padding-top: 10vh;
+    width: 80%;
+  }
+  .cta h2 {
+    font-size: 14px
+  }
+  .col {
+    width:90%;
+    font-size: 15px;
+  }
+  .req img {
+    width: 30%
+  }
+}
+
+/*tablet breakpoint*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  #cover {
+    background-attachment: scroll;
+    height: 40vh;
+  }
+  .container {
+    margin: 0 2%
+  }
+  .cta {
+    width:100%;
+  }
+  .cta img {
+    padding-top: 10vh;
+    width: 80%;
+  }
+  .cta h2 {
+    font-size: 18px
+  }
+  .col {
+    font-size: 18px;
+  }
+  .req img {
+    width: 30%
+  }
 }
