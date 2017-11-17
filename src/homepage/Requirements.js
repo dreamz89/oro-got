@@ -8,6 +8,7 @@ export default class Requirements extends Component {
     return (
       <div className='container'>
         <h1>Requirements</h1>
+        <p>Besides being reliable and flexible, people whose looks fit the medieval scenes would be great</p>
         <div className='col'>
           <img src={Hair} alt='Long hair man' />
           <h3>Long Hair</h3>

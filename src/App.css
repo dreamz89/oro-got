@@ -7,8 +7,13 @@ h1, h2, p {
 }
 
 .atf {
+  position: relative;
+}
+
+#cover {
   /* The image used */
   background-image: url("./images/Cover3.jpg");
+  opacity: 0.8;
 
   /* Full height */
   height: 100vh;
@@ -20,30 +25,43 @@ h1, h2, p {
   background-size: cover;
 }
 
-.atf img {
+.cta {
+  position: absolute;
+  top: 0;
+  left: 0
+}
+
+.cta img {
   display:block;
   margin:auto;
-  padding-top: 20vh
+  padding-top: 20vh;
 }
 
-.atf h2 {
-  margin: auto;
+.cta h2 {
   width: 60%;
+  margin: auto;
 }
 
-.atf .center {
+.cta .center {
   margin: 5% 43%
 }
 
 h1 {
   text-align: center;
-  margin: 5% 0
+  margin: 5% 0 0 0
+}
+
+p {
+  text-align: center;
+  margin: 1% 0 5% 0;
 }
 
 .col {
   display: inline-block;
+  font-size: 16px;
   margin: 1.5%;
-  width:30%
+  width:30%;
+  position: relative;
 }
 .col img {
   display:block;
@@ -54,6 +72,7 @@ h1 {
   text-align: center;
 }
 
-.col {
-  font-size: 16px;
+.rev img{
+  width: 15%;
+  float: left
 }
