@@ -31,14 +31,14 @@ export default class Register extends Component {
             <TextField
               floatingLabelText='Email'
               onChange={e => this.setState({ email: e.target.value })}
-              errorText={this.state.errorMessage} /><br />
+              errorText={this.state.errorMessage} /><br /><br />
             <RaisedButton
               label='Submit'
               type='submit'
               primary={true}
               className='center' /><br />
           </form>
-          <p>Your password is {this.state.password}</p>
+          <p style={{textAlign: 'left'}}>Your password is {this.state.password}</p>
         </div>
       </div>
     )

@@ -46,7 +46,7 @@ export default class Locations extends Component {
       <div className='locations'>
         <div className='container'>
           <h1>Locations</h1>
-          <p>You will have to be based in these locations</p>
+          <p>You will have to be based in one of these locations</p>
           <GridList cols={3} padding={15} cellHeight={200}>
             {locations}
           </GridList>
