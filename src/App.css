@@ -78,6 +78,12 @@ p {
   float: left
 }
 
+.reqbg {
+  margin-top: 5%;
+  padding: 1%;
+  background-color:#effbfc
+}
+
 /*mobile breakpoint*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   #cover {
